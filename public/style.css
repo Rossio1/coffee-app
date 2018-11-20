@@ -1,7 +1,88 @@
 body{
-  padding-top:80px;
   word-wrap:break-word;
+  background-image: url('img/coffee.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-img{
-  height: 200px;
+
+.text{
+  color:white;
+  width:60%;
+  text-align: center;
+  margin-top: 100px;
+  font-style: italic;
+}
+
+.home{
+  text-align: center;
+  font-size: 30px;
+}
+.home h1{
+  color:white;
+  font-size: 50px;
+  padding-bottom: 5%;
+}
+.home h3{
+  color:white;
+}
+.container{
+  color:white;
+}
+.nav li{
+  margin-top: 5px;
+  color: white;
+  display: inline;
+}
+.nav li a{
+  text-decoration: none;
+  color: white;
+}
+.navbar navbar-inverse{
+  width: 100%;
+}
+.nav-wrapper{
+  width:100%;
+}
+
+#bg {
+  background-image: url('freelancer-desk.jpg');
+  background-position: center top;
+  background-size: 1080px auto;
+  padding: 70px 90px 120px 90px;
+}
+
+#search {
+  color: #fefefe;
+  height: 600px;
+  padding: 20px;
+  background: rgb(34,34,34); /* for IE */
+  background: rgba(34,34,34,0.75);
+  text-align: center;
+}
+
+#search form{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 23px;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+#search h2, #search h5, #search h5 a { text-align: center; color: #fefefe; font-weight: normal; }
+#search h2 { margin-bottom: 50px }
+#search h5 { margin-top: 70px }
+.text{
+  margin: 0 auto;
+}
+.text p{
+  font-size: 22px;
+}
+
+.orders{
+  width: 45%;
+  float: left;
+}
+.orders ul{
+  list-style-type: none;
 }
